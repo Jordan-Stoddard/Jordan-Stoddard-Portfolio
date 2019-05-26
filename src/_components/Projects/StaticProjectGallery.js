@@ -53,7 +53,7 @@ const StaticProjectGallery = () => {
       <Project>
         <div className="column-reverse">
           <div className="project-description">
-            <h3>Personal Project</h3>
+            <h3>PERSONAL PROJECT</h3>
             <h2>MovieFan</h2>
             <p className="long-description">
               Explore. Discover. Remember.
@@ -103,7 +103,7 @@ const StaticProjectGallery = () => {
         </div>
 
         <div className="project-description">
-          <h3>PERSONAL Project</h3>
+          <h3>PERSONAL PROJECT</h3>
           <h2>Lambda Notes</h2>
           <p>
             A simple note-taking web application that lets a user create,
