@@ -10,6 +10,9 @@ export const MainContainer = styled.div`
 `;
 
 export const MainWrapper = styled.div`
-  /* border: 2px solid lightgreen; */
-  ${wrapper("80%", "0 auto")} /* margin-top: 9rem; */
+  width: 80%;
+  margin: 0 auto;
+  @media (max-width: 900px) {
+    width: 90%;
+  }
 `;

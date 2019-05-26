@@ -8,10 +8,10 @@ const Projects = () => {
     <ProjectContainer id="projects">
       <h1>Projects.</h1>
       <p>
-        Here are a few selections of my work as a web developer. You can view my
-        other small projects{" "}
+        Here are a few selections of my work as a web developer.
+        <br /> You can view some of my other projects{" "}
         <a
-          href="https://github.com/jsmnglng"
+          href="https://github.com/Jordan-Stoddard"
           target="_blank"
           rel="noopener noreferrer"
         >

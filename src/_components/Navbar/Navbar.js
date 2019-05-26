@@ -60,7 +60,7 @@ class Navbar extends Component {
                   to="about"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-120}
                   duration={500}
                 >
                   About

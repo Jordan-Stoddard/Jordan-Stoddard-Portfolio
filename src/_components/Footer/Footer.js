@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-links">
           <nav>
             <a
-              href="https://twitter.com/jsmnglng"
+              href="https://twitter.com/Jdogstoddard"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -16,7 +16,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/jsmnglng/"
+              href="https://www.linkedin.com/in/jordan-stoddard-aa928167/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,14 +24,14 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://github.com/jsmnglng"
+              href="https://github.com/Jordan-Stoddard"
               target="_blank"
               rel="noopener noreferrer"
             >
               Github
             </a>
 
-            <a href="mailto:jsmn.glng@gmail.com">Email</a>
+            <a href="mailto:jordan.j.stoddard@gmail.com">Email</a>
           </nav>
         </div>
 
@@ -39,11 +39,11 @@ const Footer = () => {
           <p>
             &copy; 2019{" "}
             <a
-              href="https://github.com/jsmnglng/jsmn.dev"
+              href="https://github.com/Jordan-Stoddard/Jordan-Stoddard-Portfolio"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Jasmine Galang
+              Jordan Stoddard
             </a>
           </p>
         </div>

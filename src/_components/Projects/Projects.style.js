@@ -49,18 +49,44 @@ export const ProjectGallery = styled.div`
 
 export const Project = styled.section`
   ${flex()}
-  margin-bottom: 10rem;
+  margin-bottom: 12rem;
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-reverse {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+
+    @media (max-width: 900px) {
+      flex-direction: column-reverse;
+    }
+  }
 
   /* screenshot of the project application */
   .project-thumbnail {
     width: 50%;
+    @media (max-width: 900px) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
 
     @media (max-width: 610px) {
-      display: none;
     }
 
     img {
-      width: 90%;
+      width: 95%;
       height: auto;
     }
   }
@@ -71,9 +97,8 @@ export const Project = styled.section`
 
   .project-description {
     width: 50%;
-    padding: 0.5rem 0;
 
-    @media (max-width: 610px) {
+    @media (max-width: 900px) {
       width: 100%;
     }
 
@@ -100,7 +125,7 @@ export const Project = styled.section`
 
     /* project title */
     h2 {
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
       font-size: 3.5rem;
       font-weight: 700;
       color: ${colors.blackRegular};
@@ -116,39 +141,32 @@ export const Project = styled.section`
       font-size: 1.8rem;
       line-height: 3rem;
       color: ${colors.blackLight};
-      height: 8rem;
       margin-bottom: 3.5rem;
 
-      @media (max-width: 1066px) {
-        height: 12rem;
+      @media (max-width: 900px) {
+        width: 100%;
       }
 
       @media (max-width: 610px) {
-        height: 8rem;
       }
 
       @media (max-width: 390px) {
-        height: 11rem;
       }
     }
 
     .long-description {
-      height: 11rem;
+      height: 100%;
 
       @media (max-width: 1111px) {
-        height: 15rem;
       }
 
       @media (max-width: 610px) {
-        height: 11rem;
       }
 
       @media (max-width: 444px) {
-        height: 14rem;
       }
 
       @media (max-width: 345px) {
-        height: 16rem;
       }
     }
 
@@ -195,6 +213,9 @@ export const Project = styled.section`
       img {
         width: 65%;
         height: auto;
+      }
+      @media (max-width: 900px) {
+        display: none;
       }
     }
   }

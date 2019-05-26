@@ -7,8 +7,8 @@ const Hero = () => {
     <HeroContainer id="home">
       <div className="hero-image">
         <img
-          src={require("../../_assets/img/hero-image.png")}
-          alt="Jasmine Galang"
+          src={require("../../_assets/img/hero-logo.png")}
+          alt="Jordan Stoddard"
         />
       </div>
       <div className="drop-down-icon">
@@ -17,7 +17,7 @@ const Hero = () => {
           to="about"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-120}
           duration={500}
         >
           <img

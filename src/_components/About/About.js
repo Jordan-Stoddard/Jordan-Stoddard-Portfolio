@@ -7,25 +7,19 @@ const About = () => {
       <AboutHeadline>
         <h1>Hello World.</h1>
         <p className="main-headline">
-          I'm Jasmine Galang and I'm a full-stack developer who is always
-          creating and learning awesome stuff.
-        </p>
-        <p className="secondary-headline">
-          Studying web development with computer science at{" "}
-          <a
-            href="https://lambdaschool.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Lambda School
-          </a>
-          .
+          Jordan Stoddard is a Full Stack Web Developer with 10 years experience
+          in Project Management and Growth. <br /> In his previous career he had
+          the opportunity to lead teams of 35+ and manage projects for some of
+          the largest and well known companies in the world such as:
+          <br />
+          <br /> Google, Bank of America, VMWare, Stanford University, IBM,
+          Greylock Realty Partners and many others.
         </p>
       </AboutHeadline>
 
       <AboutImage>
         <img
-          src={require("../../_assets/img/girl-sitting.png")}
+          src={require("../../_assets/img/jordan-headshot.jpg")}
           alt="girl-sitting"
         />
       </AboutImage>

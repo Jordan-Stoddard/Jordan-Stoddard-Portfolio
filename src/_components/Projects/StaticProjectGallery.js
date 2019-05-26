@@ -11,23 +11,28 @@ const StaticProjectGallery = () => {
       <Project>
         <div className="project-thumbnail">
           <img
-            src={require("../../_assets/img/project-learnlocker.png")}
-            alt="learnlocker website"
+            src={require("../../_assets/img/macbook-myHouse.png")}
+            alt="myHouse website"
           />
         </div>
 
         <div className="project-description">
-          <h3>TEAM</h3>
-          <h2>LearnLocker</h2>
+          <h3>TEAM PROJECT</h3>
+          <h2>MyHouse</h2>
           <p>
-            A web application that allows users to keep and organize resources
-            from the internet in one place.
+            Coupled with the best machine learning algorithms in real estate
+            technology, MyHouse’s data provides homeowners and buyers the most
+            accurate decision making information on the market.
+            <br /> <br />
+            Tech Stack: React, React Hooks, Redux, node-sass, GraphQL, Node.js,
+            Postgres and the Amazon Web Services Suite: Amplify, Cognito,
+            AppSync, S3, and Elastic Beanstalk.
           </p>
 
           <div className="btn-group">
             <a
               className="app-btn"
-              href="https://learnlocker.dev/"
+              href="https://myhouse-lr5myrn9k.now.sh/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -35,78 +40,70 @@ const StaticProjectGallery = () => {
             </a>
             <a
               className="src-btn"
-              href="https://github.com/learneda"
+              href="https://github.com/labs12-real-estate/labs12-real-estate-FE"
               target="_blank"
               rel="noopener noreferrer"
             >
               source
             </a>
-          </div>
-
-          <div className="minions">
-            <img
-              src={require("../../_assets/svg/minion-4.svg")}
-              alt="4 minions"
-            />
           </div>
         </div>
       </Project>
 
       <Project>
-        <div className="project-description">
-          <h3>TEAM</h3>
-          <h2>Luncher</h2>
-          <p className="long-description">
-            A revolutionary tool to connect schools directly to donors who
-            provided funds, helping remove barriers stopping children in need of
-            healthy lunches.
-          </p>
+        <div className="column-reverse">
+          <div className="project-description">
+            <h3>Personal Project</h3>
+            <h2>MovieFan</h2>
+            <p className="long-description">
+              Explore. Discover. Remember.
+              <br /> <br />
+              MovieFan allows you to browse movies from top rated to upcoming,
+              from old favorites to the newest releases.
+              <br /> <br />
+              Tech stack: React, React Hooks, SASS, axios, bootstrap,
+              react-slick.
+            </p>
 
-          <div className="btn-group">
-            <a
-              className="app-btn"
-              href="https://luncher-0311.netlify.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              view
-            </a>
-            <a
-              className="src-btn"
-              href="https://github.com/build-week-luncher"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              source
-            </a>
+            <div className="btn-group">
+              <a
+                className="app-btn"
+                href="https://moviefanapp.online"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                view
+              </a>
+              <a
+                className="src-btn"
+                href="https://github.com/Jordan-Stoddard/MovieFan-2.0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                source
+              </a>
+            </div>
           </div>
 
-          <div className="minions">
+          <div className="project-thumbnail inverted-thumbnail">
             <img
-              src={require("../../_assets/svg/minion-3.svg")}
-              alt="4 minions"
+              src={require("../../_assets/img/macbook-movieFan.png")}
+              alt="luncher website"
             />
           </div>
-        </div>
-
-        <div className="project-thumbnail inverted-thumbnail">
-          <img
-            src={require("../../_assets/img/project-luncher.png")}
-            alt="luncher website"
-          />
         </div>
       </Project>
 
       <Project>
         <div className="project-thumbnail">
           <img
-            src={require("../../_assets/img/project-lambdanotes.png")}
+            src={require("../../_assets/img/macbook-lambdaNotes.png")}
             alt="lambda notes website"
           />
         </div>
 
         <div className="project-description">
-          <h3>PERSONAL</h3>
+          <h3>PERSONAL Project</h3>
           <h2>Lambda Notes</h2>
           <p>
             A simple note-taking web application that lets a user create,
@@ -116,7 +113,7 @@ const StaticProjectGallery = () => {
           <div className="btn-group">
             <a
               className="app-btn"
-              href="https://ls-notes.netlify.com/"
+              href="https://jordan-notes.netlify.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -124,19 +121,12 @@ const StaticProjectGallery = () => {
             </a>
             <a
               className="src-btn"
-              href="https://github.com/jsmnglng/front-end-project-week"
+              href="https://github.com/Jordan-Stoddard/front-end-project-week"
               target="_blank"
               rel="noopener noreferrer"
             >
               source
             </a>
-          </div>
-
-          <div className="minions">
-            <img
-              src={require("../../_assets/svg/minion-1.svg")}
-              alt="4 minions"
-            />
           </div>
         </div>
       </Project>

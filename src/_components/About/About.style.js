@@ -4,23 +4,34 @@ import { colors, headingStyle } from "../../_styles/variables.style";
 
 export const AboutContainer = styled.section`
   ${flex("space-between", "center")}
-  height: 80vh;
+  margin-top: 150px;
+  margin-bottom: 150px;
 
   @media (max-width: 700px) {
     height: 100vh;
+  }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    margin-top: 170px;
   }
 `;
 
 export const AboutHeadline = styled.div`
   width: 50%;
 
-  @media (max-width: 650px) {
+  @media (max-width: 900px) {
     width: 100%;
   }
 
   h1 {
     margin-bottom: 4rem;
     ${headingStyle}
+    @media (max-width: 900px) {
+      font-size: 5rem;
+      line-height: 5rem;
+      text-align: left;
+    }
   }
 
   p {
@@ -30,21 +41,22 @@ export const AboutHeadline = styled.div`
 
   .main-headline {
     margin-bottom: 5rem;
-    font-size: 4rem;
-    line-height: 6rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
 
     @media (max-width: 1200px) {
-      font-size: 3rem;
-      line-height: 5rem;
+      font-size: 1.8rem;
+      line-height: 3rem;
     }
 
-    @media (max-width: 885px) {
-      font-size: 2.5rem;
-      line-height: 4rem;
+    @media (max-width: 900px) {
+      font-size: 1.8rem;
+      line-height: 3rem;
+      text-align: left;
     }
 
     @media (max-width: 711px) {
-      font-size: 2rem;
+      font-size: 1.8rem;
       line-height: 3rem;
     }
   }
@@ -81,11 +93,19 @@ export const AboutImage = styled.div`
   text-align: right;
 
   @media (max-width: 650px) {
-    display: none;
+    width: 90%;
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+    width: 90%;
+    text-align: center;
   }
 
   img {
-    width: 100%;
+    width: 75%;
     height: auto;
+    border-radius: 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
 `;
