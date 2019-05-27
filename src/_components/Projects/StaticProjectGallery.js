@@ -36,7 +36,7 @@ const StaticProjectGallery = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view
+              visit
             </a>
             <a
               className="src-btn"
@@ -44,7 +44,7 @@ const StaticProjectGallery = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              source
+              code
             </a>
           </div>
         </div>
@@ -72,7 +72,7 @@ const StaticProjectGallery = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                view
+                visit
               </a>
               <a
                 className="src-btn"
@@ -80,7 +80,7 @@ const StaticProjectGallery = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                source
+                code
               </a>
             </div>
           </div>
@@ -117,7 +117,7 @@ const StaticProjectGallery = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              view
+              visit
             </a>
             <a
               className="src-btn"
@@ -125,7 +125,7 @@ const StaticProjectGallery = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              source
+              code
             </a>
           </div>
         </div>
