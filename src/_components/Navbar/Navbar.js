@@ -79,11 +79,7 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li id="resume">
-                <a
-                  href="https://resume.creddle.io/resume/ikm2c1ejimy"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="#" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </li>
