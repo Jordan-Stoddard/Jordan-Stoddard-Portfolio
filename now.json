@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "jordan-portfolio",
+    "name": "portfolio",
     "builds": [
       {
         "src": "package.json",
