@@ -31,6 +31,14 @@ const Footer = () => {
               Github
             </a>
 
+            <a
+              href="https://medium.com/@jjsincorporated"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Blog
+            </a>
+
             <a href="mailto:jordan.j.stoddard@gmail.com">Email</a>
           </nav>
         </div>
