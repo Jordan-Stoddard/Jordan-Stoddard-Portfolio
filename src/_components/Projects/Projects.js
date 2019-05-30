@@ -15,7 +15,7 @@ const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          github
+          Github
         </a>
         .
       </p>
