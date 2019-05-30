@@ -20,6 +20,9 @@ const StaticProjectGallery = () => {
           <h3>TEAM PROJECT</h3>
           <h2>MyHouse</h2>
           <p>
+            <span style={{fontStyle: 'italic'}}>Award: First Place at Lambda School Demo Day 2019</span>
+            <br />
+            <br />
             Coupled with the best machine learning algorithms in real estate
             technology, MyHouse’s data provides homeowners and buyers the most
             accurate decision making information on the market.
