@@ -108,9 +108,10 @@ const StaticProjectGallery = () => {
           <p>
             A simple note-taking web application that lets a user create,
             update, delete and display notes.
+            <br />
+            <br />
+            Tech stack: React, Node.js, Postgres, Sqlite3, Express.js, axios.
           </p>
-          <br /><br />
-          Tech stack: React, Node.js, Postgres, Sqlite3, Express.js, axios.
 
           <div className="btn-group">
             <a
