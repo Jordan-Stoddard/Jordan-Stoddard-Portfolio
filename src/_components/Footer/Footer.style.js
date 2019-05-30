@@ -39,6 +39,7 @@ export const FooterWrapper = styled.div`
     nav {
       ${flex()}
       width: 100%;
+      justify-content: space-evenly;
 
       @media (max-width: 588px) {
         flex-direction: column;
@@ -46,7 +47,6 @@ export const FooterWrapper = styled.div`
       }
 
       a {
-        width: 40%;
         letter-spacing: 0.04rem;
         color: ${colors.blackLight};
 
