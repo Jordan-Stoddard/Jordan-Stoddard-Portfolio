@@ -35,7 +35,7 @@ const StaticProjectGallery = () => {
           <div className="btn-group">
             <a
               className="app-btn"
-              href="https://myhouse-lr5myrn9k.now.sh/"
+              href="https://myhouse-app.now.sh/"
               target="_blank"
               rel="noopener noreferrer"
             >
