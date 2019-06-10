@@ -49,6 +49,14 @@ const StaticProjectGallery = () => {
             >
               code
             </a>
+            <a
+              className="src-btn"
+              href="https://www.youtube.com/watch?v=JgjmJS9FQvo&feature=youtu.be"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              video
+            </a>
           </div>
         </div>
       </Project>
