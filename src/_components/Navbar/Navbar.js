@@ -79,7 +79,7 @@ class Navbar extends Component {
                 </Link>
               </li>
               <li id="resume">
-                <a href="https://app.box.com/s/yqto9vh0byfgkbmx8zisou2gwl1c2vts" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.dropbox.com/s/6oa5jn39e9tmu00/Jordan%20Stoddard%20Resume.png?dl=0" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </li>
