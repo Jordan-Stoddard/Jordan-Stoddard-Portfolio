@@ -7,7 +7,7 @@ const About = () => {
       <AboutHeadline>
         <h1>Hello World.</h1>
         <p className="main-headline">
-          Jordan Stoddard is a Full Stack Web Developer with 10 years experience
+          Jordan Stoddard is a Technical Product Manager with a background in pure software engineering roles and 10 years experience
           in Project Management and Growth. <br /> In his previous career, he had
           the opportunity to lead teams of 35+ and manage projects for some of
           the largest and well known companies in the world such as:

@@ -7,7 +7,7 @@ const Hero = () => {
     <HeroContainer id="home">
       <div className="hero-image">
         <img
-          src={require("../../_assets/img/hero-logo.png")}
+          src={require("../../_assets/img/tpm-title.png")}
           alt="Jordan Stoddard"
         />
       </div>

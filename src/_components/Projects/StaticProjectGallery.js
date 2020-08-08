@@ -8,14 +8,51 @@ import { ProjectGallery, Project } from "./Projects.style";
 const StaticProjectGallery = () => {
   return (
     <ProjectGallery>
-      <Project>
+
+<Project>
         <div className="project-thumbnail">
           <img
-            src={require("../../_assets/img/macbook-myHouse.png")}
-            alt="myHouse website"
+            src={require("../../_assets/img/alpha-laptop.png")}
+            alt="lambda notes website"
           />
         </div>
 
+        <div className="project-description">
+          <h3>PROFESSIONAL APPLICATION</h3>
+          <h2>Alpha Medical</h2>
+          <p>
+            Alpha Medical is a first-of-its-kind 100% asynchronous online primary care facility. 
+            Treating 70% of conditions in almost every state in the U.S.
+            <br />
+            Applications include a CraftCMS marketing site, a Patient Dashboard and a Clinician Dashboard all built in-house.
+            <br />
+            <br />
+            Tech stack: React, Typescript, CraftCMS, Postgres, Python, SQLAlchemy, Flask, AWS.
+          </p>
+
+          <div className="btn-group">
+            <a
+              className="app-btn"
+              href="https://helloalpha.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              visit
+            </a>
+            <a
+              className="src-btn"
+              href="https://www.helloalpha.com/about-alpha"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              about
+            </a>
+          </div>
+        </div>
+      </Project>
+
+      <Project>
+        <div className="column-reverse">
         <div className="project-description">
           <h3>TEAM PROJECT</h3>
           <h2>MyHouse</h2>
@@ -59,10 +96,22 @@ const StaticProjectGallery = () => {
             </a>
           </div>
         </div>
+        <div className="project-thumbnail">
+          <img
+            src={require("../../_assets/img/macbook-myHouse.png")}
+            alt="myHouse website"
+          />
+        </div>
+        </div>
       </Project>
 
       <Project>
-        <div className="column-reverse">
+      <div className="project-thumbnail">
+            <img
+              src={require("../../_assets/img/macbook-movieFan.png")}
+              alt="luncher website"
+            />
+      </div>
           <div className="project-description">
             <h3>PERSONAL PROJECT</h3>
             <h2>MovieFan</h2>
@@ -96,53 +145,7 @@ const StaticProjectGallery = () => {
             </div>
           </div>
 
-          <div className="project-thumbnail inverted-thumbnail">
-            <img
-              src={require("../../_assets/img/macbook-movieFan.png")}
-              alt="luncher website"
-            />
-          </div>
-        </div>
-      </Project>
 
-      <Project>
-        <div className="project-thumbnail">
-          <img
-            src={require("../../_assets/img/macbook-lambdaNotes.png")}
-            alt="lambda notes website"
-          />
-        </div>
-
-        <div className="project-description">
-          <h3>PERSONAL PROJECT</h3>
-          <h2>Lambda Notes</h2>
-          <p>
-            A simple note-taking web application that lets a user create,
-            update, delete and display notes.
-            <br />
-            <br />
-            Tech stack: React, Node.js, Postgres, Sqlite3, Express.js, axios.
-          </p>
-
-          <div className="btn-group">
-            <a
-              className="app-btn"
-              href="https://jordan-notes.netlify.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              visit
-            </a>
-            <a
-              className="src-btn"
-              href="https://github.com/Jordan-Stoddard/front-end-project-week"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              code
-            </a>
-          </div>
-        </div>
       </Project>
     </ProjectGallery>
   );
